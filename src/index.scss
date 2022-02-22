@@ -1,0 +1,39 @@
+$blue: #293264;
+$white: #f5f7fb;
+body {
+  margin: 0;
+  font-family: Inter;
+}
+* {
+  box-sizing: border-box;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  &__title {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 37px;
+    color: $blue;
+    text-align: center;
+  }
+  &__btn {
+    padding: 17px 60px;
+    border: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+    color: $white;
+    cursor: pointer;
+    background-color: $blue;
+    border-radius: 15px;
+  }
+}
